@@ -10,7 +10,7 @@ export default function Home() {
     return (
       <UserProvider value={{ user, loading }}>
 
-          <p>{user.nickname}</p>
+          <p>Hello, {user.nickname}!</p>
 
       </UserProvider>
     )
